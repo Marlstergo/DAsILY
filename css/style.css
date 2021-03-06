@@ -1,0 +1,203 @@
+/* import fonts from fonts.css */
+
+@import url(./fonts.css);
+/* import css */
+@import url(./partials/_variables.css);
+/* import global syling */
+@import url(./partials/_global.css);
+link
+
+/* start navigation */
+
+.header-area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+.header-area .main-menu .navbar{
+    padding: 1rem 20rem;
+}
+.header-area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+.header-area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header-area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end navigation */
+
+/* banner area */
+
+.site-main .site-banner{
+    background: url(../img/banner/home-banner.png)no-repeat 0% 50%;
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 30%;
+    font-weight: 500;
+}
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h1{
+    font-size: 4rem;
+}
+.site-main .site-banner .site-title h4{
+    font-size: 2.3rem;
+}
+/* end banner area */
+/* about area */
+
+.site-main .company .first-row{
+
+    margin-top: 0rem;
+    /* padding-left: 5rem; */
+    /* background: red; */
+    margin-left: 5rem;
+    
+}
+.site-main .company .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+    /* justify-items: center; */
+    /* align-content: center; */
+    margin-bottom: 2rem;
+}
+
+.site-main .company .first-row .col-lg-4 .single-brand{
+    padding: 10px;
+    /* margin: 20px; */
+    border: 2px solid var(--border-color);
+    text-align: center;
+    height: 6rem;
+    width: 10rem;
+    transition: transform .5s ease;
+    padding: 1rem 0;
+    cursor: pointer;
+    padding: 2rem 0rem;
+    /* margin: .9rem 0; */
+}
+.site-main .company .first-row .col-lg-4 .single-brand:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.2);
+}
+
+   
+.site-main .company .first-row .col-lg-4 .single-brand  > img{
+    width: 50%;
+    /* position: relative; */
+    /* top: 1rem; */
+    /* right: ; */
+}
+.site-main .company .first-row .col-lg-4 .single-brand:hover > img{
+    filter: brightness(0.1);
+}
+/* .colater{
+    padding-right: 0;
+} */
+/* end about area */
+/* experience area */
+.experience-area{
+    margin-left: 5rem;
+    position: relative;
+}
+.years-area{
+    background: url(../img/client-info-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    height: 15rem;  
+    /* position: relative; */
+}
+.years{
+    font: normal bold 84px/40px var(--roboto);
+    color: var(--primary-color2);
+}
+.exp-text > span{
+    text-transform: capitalize;
+    display: block;
+    /* flex: none; */
+    /* background-color: cadetblue; */
+    font-family: var(--roboto);
+    font: normal 600 22px/30px var(--roboto);
+}
+.call-area{
+    margin-top: 3rem;
+    padding-left: 5rem;
+    /* position: relative; */
+    display: block;
+}
+.call{
+    display: block;
+}
+.call>span{
+    font: normal 400 22px/30px var(--roboto);
+}
+.call>a{
+    font: normal 900 22px/30px var(--roboto);   
+    display: block;
+}
+
+
+.bg-panel{
+    position: absolute;
+    background: #e029290a;  
+    height: 400px;
+    width: 400px;
+    top: -15px;
+    left: 070px;
+    z-index: -9;
+}
+/* end exp area */
+
+/* sercices area */
+.service{
+    /* font-family: var(--roboto); */
+    padding: 0rem 4rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+.service >h2{
+    text-align: center;
+    /* height: 50rem; */
+}
+.service >p{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.column-row{
+    margin: 12rem 0;
+    padding: 0 5rem;
+}
+
+.service-box{
+    padding-top: 3rem;
+    background: #b5bcc215;
+}
+.img-text > h5{
+    height: 20px;
+    font-family: var(--roboto);
+}
+
+.service-box:hover{
+    box-shadow:  -10px 5px 50px rgba(57, 56, 61, 0.2055);
+}
+
+/* sercices area */
